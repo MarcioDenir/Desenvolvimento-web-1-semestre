@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Produtos</title>
+</head>
+<body>
+    <h1>Cadastro de Produtos</h1>
+ 
+    <form action="/adicionar" method="POST">
+        <label for="nome"> Nome do Produto</label> <br>
+        <input type="text" id="nome" name="nome" required> <br>
+        <br>
+         <label for="quantidade"> Quantidade</label> <br>
+        <input type="number" id="quantidade" name="quantidade"  min="0" required> <br>
+        <br>
+         <label for="preco"> Preço</label> <br>
+        <input type="number" id="preco" name="preco" min="0.01" step="0.01" required> <br>
+        <input type="submit">
+        <br>
+        
+ 
+    </form>
+    <a href="/"><button>Menu inicial</button></a>
+</body>
+</html>
