@@ -1,0 +1,11 @@
+CREATE DATABASE empresa;
+
+USE empresa;
+
+CREATE TABLE cliente(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    telefone VARCHAR(100) NOT NULL
+);
+
+SELECT*FROM cliente;

@@ -1,0 +1,11 @@
+CREATE DATABASE steam;
+
+USE steam;
+
+CREATE TABLE jogos ( 
+id INT AUTO_INCREMENT PRIMARY KEY,
+nome VARCHAR(100),
+genero VARCHAR(50)
+ );
+
+SELECT*FROM jogos;

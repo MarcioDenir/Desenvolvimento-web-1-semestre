@@ -1,0 +1,11 @@
+CREATE DATABASE localiza;
+
+USE localiza;
+
+CREATE TABLE veiculos (
+id INT AUTO_INCREMENT PRIMARY KEY,
+modelo VARCHAR(100) NOT NULL,
+placa VARCHAR(20) NOT NULL
+);
+
+SELECT * FROM veiculos;

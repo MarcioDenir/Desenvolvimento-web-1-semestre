@@ -1,0 +1,11 @@
+CREATE DATABASE weg;
+
+USE weg;
+
+CREATE TABLE funcionarios(
+id INT AUTO_INCREMENT PRIMARY KEY,
+nome VARCHAR(100)NOT NULL,
+cargo VARCHAR(100)NOT NULL
+);
+
+SELECT*FROM funcionarios;

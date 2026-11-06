@@ -1,0 +1,11 @@
+CREATE DATABASE livraria;
+
+USE livraria;
+
+CREATE TABLE livros ( 
+id INT AUTO_INCREMENT PRIMARY KEY,
+titulo VARCHAR(150),
+autor VARCHAR(100)
+);
+
+SELECT*FROM livraria;

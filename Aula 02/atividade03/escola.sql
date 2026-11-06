@@ -1,0 +1,11 @@
+CREATE DATABASE escola;
+
+USE escola;
+
+CREATE TABLE professores(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    disciplina VARCHAR(100) NOT NULL
+);
+
+SELECT*FROM professores;

@@ -1,0 +1,7 @@
+git add --all --> adciona todas as alteraçoes do diretorio de trabalho para a area de preparação para o proximo commit
+ 
+git status --> mostra o status dos arquivos
+
+git commit -m "comentario para identifcar oque esta sendo enviado no pacote" --> prepara os arquivos em forma de pacote
+
+git push -u origin master --> sobe os arquivos para o diretorio do github

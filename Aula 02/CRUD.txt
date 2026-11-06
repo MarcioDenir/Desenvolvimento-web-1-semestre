@@ -1,0 +1,29 @@
+c = Create -> inserir dados no banco -> INSERT INTO
+R = Read -> consultar dados no banco -> SELECT
+U = Update -> atualizar dados no banco -> UPDATE
+D = Delete -> Apagar dados no banco -> DELETE FROM
+
+NO MYSQL WORKBENCH
+CREATE DATABASE escola;
+
+USE escola;
+
+CREATE TABLE alunos(
+id INT AUTO_INCREMENT PRIMARY KEY,
+nome VARCHAR(100) NOT NULL,
+email VARCHAR(100)NOT NULL);
+
+SELECT*FROM alunos;
+
+NO VS CODE 
+INSERT INTO ALUNOS(NOME,EMAIL)
+VALUES(?,?);
+
+SELECT*FROM ALUNOS;
+
+DELETE*FROM ALUNOS WHERE ID=?
+
+
+npm init -y -> iniciando o projeto que vai fazer uso da biblioteca npm  e criar o arquivo json
+
+npm install mysql2 -> 

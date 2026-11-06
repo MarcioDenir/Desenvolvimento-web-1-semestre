@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios HTML</title>
+</head>
+<body>
+    <form method="post" action="" onsubmit="alert('Bem-Vindo ao sistema')">
+        <h2> Bem-Vindo ao sistema! </h2>
+
+        <p>Insira seus dados para logar </p>
+        <label>Insira seu nome de usuáro</label><br>
+        <input type="text" name ="login" placeholder="Insira seu nome" required> <br> <br>
+
+        <label>Insira sua senha:</label><br>
+        <input type="password" name="pwd" placeholder="Insira sua senha" required><br> <br>
+        
+        <label>Insira seu email de usuário</label><br>
+        <input type="email" name="email" placeholder="Insira seu email" required><br> <br>
+
+        <p>Qual seu meio de transporte?</p>
+        <input type="checkbox" name="veiculo1" value="Bike">
+        Eu tenho uma Bicicleta<br>
+        <input type="checkbox" name="veiculo2" value="Carro">
+        Eu tenho um Carro<br>
+        <input type="checkbox" name="veiculo3" value="Moto">
+        Eu tenho uma Moto<br>
+        <br> <br>
+
+        <p>Qual o seu sexo?</p>
+        <input type="radio"
+         id="Feminino"
+         name="sexo"
+         value="Feminino"
+         required>
+         <label for="Feminino">Feminino</label>
+         <br>
+
+         <input type="radio"
+         id="Masculino"
+         name ="sexo"
+         value="Masculino"
+         required>
+         <label for="Masculino">Masculino</label>
+         <br>
+
+         <input type="radio"
+         id="Não definido"
+         name="sexo"
+         value="Não definido"
+         required>
+         <label for="Não definido">Não defenido</label>
+         <br>   <br> <br>
+
+         <p>Data de nascimento: </p>
+         <input type="date" name="nascimento" ><br><br>
+
+        <input type="submit">
+
+
+    </form>
+    
+</body>
+</html>

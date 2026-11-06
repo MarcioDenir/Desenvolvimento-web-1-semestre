@@ -1,0 +1,4 @@
+1 - criar a pasta que ira trabalhar
+2 - digitar no terminal npm install mysql2 -- para poder utilizar o mysql dentro do sitema
+3 - digitar no terminal npm install readline-sync -- para poder realizar interaçao com usuario
+4-
